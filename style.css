@@ -3,3 +3,234 @@
     padding: 0;
     font-family: lato,sans-serif;
 }
+
+h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+p{
+    color: #272727;
+}
+
+header{
+    background: #FCEEF1;
+    display: flex;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+    background-image: url("assets/pngwing\ 10.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+    
+}
+
+#header-left{
+    padding-right: 50%;
+}
+
+#header-left h1{
+    font-size: 60px;
+    color: #272727;
+}
+
+#header-left p{
+    color: #272727;
+    opacity: 0.6;
+    margin: 32px 0;
+}
+
+#header-shop-now{
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+    padding: 20px 43px;
+    border-radius: 8px;
+}
+
+/* featured section */
+
+main{
+    margin: 100px 0;
+}
+
+#featured-flower-head, #instagram-head{
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+
+}
+
+#featured-flower-head p{
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+#featured-flower-image{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+#featured-flower-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#featured-flower-image div{
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 50% 50% 0 0;
+}
+
+#featured-flower-image p{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#img-1{
+    width: 538px;
+    height: 538px;
+    background-color: #A7216226;
+    background-image: url("assets/pngwing\ 6.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#img-2{
+    width: 538px;
+    height: 538px;
+    background-color: #0597A026;
+    background-image: url("assets/pngwing\ 5.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#img-3{
+    width: 538px;
+    height: 538px;
+    background-color: #477D1126;
+    background-image: url("assets/pngwing\ 7.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#featured-flower-call{
+    height: 320px;
+    width: 90%;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#icon-1,#icon-2,#icon-3{
+    text-align: center;
+}
+
+#featured-flower-call p{
+    color: rgba(39, 39, 39, 0.80);
+    margin-top: 10px;
+}
+
+/* Banner */
+
+#banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 100px 0;
+}
+
+#banner-left{
+    text-align: center;
+    width: 30%;
+}
+
+#banner-left p{
+    color: rgba(39, 39, 39, 0.60);
+    margin: 20px 0;
+}
+
+#instagram-head p{
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+#instagram-images{
+    width: 90%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#instagram-images img{
+    margin: 100px 0;
+}
+
+#newsletter{
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url("assets/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#newsletter button{
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+    padding: 20px 43px;
+    border-radius: 8px;
+}
+
+#email{
+    width: 500px;
+    border: none;
+    padding: 20px 43px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+#newsletter p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 20px 0;
+}
+
+/* footer */
+
+footer{
+    height: 450px;
+    background-color: #111010;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#footer-content{
+    width: 30%;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.90);
+    margin: 20px;
+}
+
+#copyright{
+    color: #534e4e;
+}
